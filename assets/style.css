@@ -122,3 +122,15 @@ body {
     text-decoration: none;
     transition: background-color 300ms ease 0s;
 }
+
+.nav {}
+
+.nav ul {
+    display:inline;
+    list-style-type: none;
+}
+
+.nav li {
+    position: relative;
+    display:inline;
+}
