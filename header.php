@@ -18,19 +18,21 @@
 		</div>
 		<div class="vip">
 			<ul class="vip_area">
-				<li class="vip_buttons"><a href="#">VIP Member Registration</a></li>
 				<li class="vip_buttons"><a href="#">Contact Us</a></li>
 			</ul>
 		</div>
 		<div class="nav">
-			<ul class="nav">
+			<ul>
 				<li><a href="#">Solve your problem</a></li>
 				<li><a href="#">Methods</a></li>
 				<li><a href="#">Professional Services</a></li>
 				<li><a href="#">Products</a></li>
 				<li><a href="#">Our Experience</a></li>
-				<li><a href="#">About Us</a></li>
+				<li><a href="#">About us</a></li>
 			</ul>
 		</div>
+	</div>
+
+	<div class="banner">
 	</div>
 </header>

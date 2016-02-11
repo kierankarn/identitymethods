@@ -28,7 +28,7 @@ body {
 }
 
  body p, h1 {
-	color: #FFFF0C;
+	color: #FFFFFF;
 }
 
 .header {
@@ -67,7 +67,7 @@ body {
 	float: right;
 	position: absolute;
     top: 1.45rem;
-    right: 29.8rem;
+    right: 16.65rem;
 }
 
 .social a {
@@ -112,6 +112,7 @@ body {
     background-color:#009FD8;
     text-decoration: none;
     font-size: 0.9em;
+    font-weight: 500;
     padding: 0.625rem 1.4rem;
     border-radius: 3px;
     transition: background-color 300ms ease 0s;
@@ -123,14 +124,35 @@ body {
     transition: background-color 300ms ease 0s;
 }
 
-.nav {}
+.nav {
+    float: right;
+    margin-top:-37px;
+    border-bottom: 1px solid #636E80;
+    padding-bottom: 36px;
+    width: 100%;
+}
 
 .nav ul {
     display:inline;
     list-style-type: none;
+    margin-left: 265px;
 }
 
 .nav li {
     position: relative;
     display:inline;
+}
+
+.nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 32px;
+    font-size:1.12em;
+    font-weight: 500;
+    transition: color 300ms ease 0s;
+}
+
+.nav a:hover {
+    color: #009FD8;
+    transition: color 300ms ease 0s;
 }
