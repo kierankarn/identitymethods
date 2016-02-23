@@ -34,5 +34,6 @@
 	</div>
 
 	<div class="banner">
+	<img src="assets/images/home-animation.png">
 	</div>
 </header>
