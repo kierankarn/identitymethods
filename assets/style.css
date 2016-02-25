@@ -45,7 +45,7 @@ body {
 	margin: 0px auto;
 	position: relative;
 	height: 20%;
-	padding: 49px 130px;
+	padding: 50px 130px;
 }
 
 .header .container .logo {
@@ -128,9 +128,9 @@ body {
 
 .nav {
     float: right;
-    margin-top:-40px;
+    margin-top:-39px;
     border-bottom: 1px solid #636E80;
-    padding-bottom: 35px;
+    padding-bottom: 8.5px;
     width: 100%;
 }
 
@@ -148,8 +148,8 @@ body {
 .nav a {
     color: #FFFFFF;
     text-decoration: none;
-    margin-left: 30px;
-    font-size:0.892em;
+    padding-left: 1.8rem;
+    font-size:0.9em;
     font-weight: 400;
     transition: color 300ms ease 0s;
     letter-spacing:0.1px;
@@ -169,3 +169,59 @@ body {
     margin-top: -13px;
     padding-bottom: 20.5px;
 }
+
+.nav .sub-nav {
+    overflow: visible;
+    position: absolute;
+    display: none;
+    height: auto;
+    left: 0;
+    top: 100%;
+    z-index: 10;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(11,12,15,0.8);
+    margin: 1.2rem 15px 0;
+    background: #2A2F37;
+    padding: 0px 1.25rem 2rem 1.25rem;
+}
+
+.nav .sub-nav li:first-child {
+    top: 1.25rem;
+}
+
+.nav .sub-nav li {
+    border-bottom: 1px solid #414854;
+    top: 18px;
+    padding-bottom: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.nav .sub-nav li a {
+    padding-left: 0;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.6rem 1.25rem 0.6rem 0;
+    transition: 300ms color;
+    display: block;
+    border-bottom: 1px solid #414854;
+}
+
+.nav .sub-nav li:last-child a {
+    border:none;
+}
+
+.nav ul li ul:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: '';
+    height: 1.2rem;
+    width: 1.2rem;
+    background: #2A2F37;
+    position: absolute;
+    left: 1.75rem;
+    top: -0.6rem;
+}
+

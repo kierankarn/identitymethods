@@ -24,11 +24,35 @@
 		<div class="nav">
 			<ul>
 				<li><a href="#">Solve your problem</a></li>
-				<li><a href="#">Methods</a></li>
-				<li><a href="#">Professional Services</a></li>
+				<li><a href="#">Methods</a>
+					<ul class="sub-nav">
+						<li><a href="#">Identity and Access Management</a></li>
+						<li><a href="#">Data Security and Privacy</a></li>
+						<li><a href="#">Cyber Threat</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Professional Services</a>
+					<ul class="sub-nav">
+						<li><a href="#">Architecture and Design</a></li>
+						<li><a href="#">Business Analysis</a></li>
+						<li><a href="#">Project and Programme Management</a></li>
+						<li><a href="#">Strategic Advisory</a></li>
+						<li><a href="#">Technical Delivery</a></li>
+					</ul>
+				</li>
 				<li><a href="#">Products</a></li>
-				<li><a href="#">Our Experience</a></li>
-				<li><a href="#">About us</a></li>
+				<li><a href="#">Our Experience</a>
+					<ul class="sub-nav">
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Downloads</a></li>
+					</ul>
+				</li>
+				<li><a href="#">About us</a>
+					<ul class="sub-nav">
+						<li><a href="#">Key Personnel</a></li>
+						<li><a href="#">Our Approach</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</div>
