@@ -5,7 +5,7 @@ Description: Identity Methods Theme
 Version: 1
 Author: Kieran Karn
 Author URI: 
-*/
+*/ 
 
 html, 
 body {
@@ -224,4 +224,60 @@ body {
     left: 1.75rem;
     top: -0.6rem;
 }
+
+.nav li:hover ul.sub-nav {
+    display: block;
+}
+
+.wrapper {
+    max-width:66em;
+    margin:0 auto;
+    display:block;
+    position:relative;
+    height:500px;
+    padding-top: 2.65em;
+    padding-left: 7.55em;
+}
+
+.tabs-headers {
+    margin-right: 1.25rem;
+    max-width: 220px;
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+.tabs-headers a {
+    border-radius: 3px;
+    display: block;
+    padding: 0.7em 0.8125em;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 1;
+    color: #859099;
+    font-weight: 300;
+    text-decoration:none;
+}
+
+.tabs-headers .tabs-active {
+    background: #F2F4F6;
+    color: #404753;
+    position: relative;
+    font-weight: 700;
+}
+
+.tabs-headers .tabs-active:after {
+    content: '';
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    right: 0.8rem;
+    top: 1.1rem;
+    border-bottom: 2px solid #F4931F;
+    border-right: 2px solid #F4931F;
+    -transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
 
