@@ -6,7 +6,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/style.css" media="screen">
-	<title>Home - Identity Methods</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="accordion.js"></script>
+	<title>Home - Identity Methods</title> 
 </head>
 <body>
 <header class="header">

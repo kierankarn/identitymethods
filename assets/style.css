@@ -8,7 +8,7 @@ Author URI:
 */ 
 
 html, 
-body {
+body { 
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -31,7 +31,41 @@ body {
 }
 
  body p, h1 {
-	color: #FFFFFF;
+	color: #859099;
+}
+
+h2 {
+    font-weight: 700;
+    margin: 0 0 1.3125rem;
+    color: #404753;
+}
+
+.button {
+    text-decoration: none;
+    line-height: 1;
+    background: #F4931F;
+    display: inline-block;
+    padding: 0.6rem 1.3rem;
+    margin: 0.65rem 1.25rem 1.5rem 0;
+    cursor: pointer;
+    border: none;
+    width: auto;
+    color: #FFF;
+    transition: 300ms all;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    font:600 0.8em "Lato",sans-serif;
+    transition: background-color 300ms ease 0s;
+}
+
+.button a {
+    border-bottom: 1px solid #E0E4E8;
+}
+
+.button:hover {
+    background:#414854;
+    transition: background-color 300ms ease 0s;
 }
 
 .header {
@@ -279,5 +313,61 @@ body {
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+
+.tab-active {
+    width: 72.5%;
+    float: right;
+}
+
+.tab-active h2 {
+    font-size: 2.375rem;
+    margin:0;
+}
+
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+
+.accordion {
+    overflow:hidden;
+}
+
+.accordion-section-title {
+    width:70%;
+    display:inline-block;
+    transition:all linear 0.15s;
+    font-size:1.1em;
+    color:#404753;
+    text-decoration:none;
+    font-weight: 600;
+    transition: color 300ms ease 0s;
+}
+
+.accordion-section {
+    border-bottom: 2px solid #E0E4E8;
+    padding: 1.625rem 0;
+}
+
+.accordion-section-title:hover {
+    color: #009FD8;
+    transition: color 300ms ease 0s;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+    text-decoration:none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+
+.accordion-section-content {
+    display:none;
+    color:#859099;
+    width: 95%;
+}
+
 
 
