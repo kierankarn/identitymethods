@@ -273,15 +273,16 @@ h2 {
     padding-left: 7.55em;
 }
 
-.tabs-headers {
+.tab-links {
     margin-right: 1.25rem;
     max-width: 220px;
     display: block;
     width: 30%;
     float: left;
+    list-style: none
 }
 
-.tabs-headers a {
+.tab-links a {
     border-radius: 3px;
     display: block;
     padding: 0.7em 0.8125em;
@@ -291,16 +292,26 @@ h2 {
     color: #859099;
     font-weight: 300;
     text-decoration:none;
+
 }
 
-.tabs-headers .tabs-active {
-    background: #F2F4F6;
+
+.tabs .tab-links {
     color: #404753;
     position: relative;
     font-weight: 700;
+    padding-left: 0px;
+    margin-top: 0px;
 }
 
-.tabs-headers .tabs-active:after {
+.tab-links .active a {
+    background: #F2F4F6;
+    color: #404753;
+    position: relative;
+    font-weight: 500;
+}
+
+.tabs .tab-links .active a:after {
     content: '';
     width: 0.6rem;
     height: 0.6rem;
@@ -314,12 +325,12 @@ h2 {
     transform: rotate(-45deg);
 }
 
-.tab-active {
-    width: 72.5%;
-    float: right;
+.tab-content  {
+    width:72.5%;
+    float:right;
 }
 
-.tab-active h2 {
+.tab-content h2 {
     font-size: 2.375rem;
     margin:0;
 }
@@ -328,6 +339,19 @@ h2 {
     -webkit-box-sizing:border-box; 
     -moz-box-sizing:border-box; 
     box-sizing:border-box;
+}
+
+.tabs { 
+    width:100%;
+    display:inline-block;
+}
+
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
 }
 
 .accordion {

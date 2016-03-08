@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="assets/style.css" media="screen">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="accordion.js"></script>
+	<script type="text/javascript" src="tabs.js"></script>
 	<title>Home - Identity Methods</title> 
 </head>
 <body>
