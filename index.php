@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <main class="wrapper">
-<div class="tabs">
+<div class="tabs"> 
     <ul class="tab-links">
         <li class="active"><a href="#tab1">Solutions</a></li>
         <li><a href="#tab2">Professional Services</a></li>
@@ -88,4 +88,18 @@
     </div>
 </div>
 </main>
+<hr class="home-break">
+<div class="latest">
+	<div class="latest-article">
+		<h4>Latest Article</h4>
+		<a href="#"><h3>IDG: The dark web & business report: A seedy Dickensian underworld online</h3></a>
+		<small class="timestamp">February 29th, 2016</small> <br />
+		<a class="button" href="#">Read article</a>
+	</div>
+	<div class="latest-tweet">
+		<h4>Latest Tweet</h4>
+		<p>Join Identity Methods &amp; IBM on September 4th or September 8th and learn how to safeguard your organisation <a href="http://t.co/NxvFaRWUgJ" target="_blank">http://t.co/NxvFaRWUgJ</a></p>
+		<a class="twit" href="#"><i class="fa fa-twitter"></i></a><small>Follow us</small>
+	</div>
+</div>
 <?php include 'footer.php'; ?>

@@ -5,7 +5,7 @@ Description: Identity Methods Theme
 Version: 1
 Author: Kieran Karn
 Author URI: 
-*/ 
+*/  
 
 html, 
 body { 
@@ -28,6 +28,7 @@ body {
     line-height:1.3;
 	background-color: transparent;
 	height: 100%;
+    color:#859099;;
 }
 
  body p, h1 {
@@ -38,6 +39,18 @@ h2 {
     font-weight: 700;
     margin: 0 0 1.3125rem;
     color: #404753;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+h4 {
+    color: #404753;
+}
+
+a {
+    color: #009FD8;
 }
 
 footer {
@@ -277,7 +290,7 @@ footer {
     height:500px;
     padding-top: 2.65em;
     padding-left: 7.55em;
-    margin-bottom:7em;
+    margin-bottom:5em;
 }
 
 .wrap {
@@ -468,6 +481,9 @@ footer a:hover {
     -moz-columns: 3;
     columns: 3;
     list-style:none;
+    margin-bottom:0;
+    width:55rem;
+    margin-left:-35px;
 }
 
 .menu a {
@@ -477,4 +493,86 @@ footer a:hover {
 .nav-low .menu .sub-menu {
     list-style:none;
     padding-left:0;
+}
+
+.home-break {
+    margin: 0;
+    border-color: #E0E4E8;
+    border: none;
+    border-bottom: 1px solid #F2F4F6;
+    margin: 2rem 0;
+    display: block;
+}
+
+.latest {
+    width:70%;
+    margin: 0 auto;
+    height: 260px;
+}
+
+.latest-article a {
+    font-size:1.1rem;
+    text-decoration:none;
+}
+
+.latest-article .button a {
+    color:#FFFFFF;
+}
+
+.latest-article {
+    width:50%;
+    float:left;
+}
+
+.latest-article h3 {
+    color:#404753;
+}
+
+.latest-tweet {
+    width:45%;
+    float:left;
+}
+
+.twit {
+    height: 2.5rem;
+    text-align: center;
+    border-radius: 100%;
+    background: #009FD8 none repeat scroll 0% 0%;
+    position: relative;
+    color: #FFFFFF;
+    padding: 7px 11px;
+    width: 2.5rem;
+    margin: 0px 2.25px;
+    font-size: 20.2px;
+}
+
+.latest-tweet small {
+    color: rgb(0, 159, 216);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+.timestamp {
+    color: rgb(133, 144, 153);
+    font-size: 0.8em;
+}
+
+.nav-low .menu a {
+    display: block;
+    line-height: 1.2;
+    margin: 0 0 0.75rem;
+    font-size:1rem;
+}
+
+.nav-low a {
+    transition: 300ms color;
+    color: inherit;
+}
+
+.nav-low .menu > li > a {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0 0 0.4375rem;
+    color: #404753;
 }
